@@ -1,9 +1,13 @@
+<html>
+<head>
+<title>TODO</title>
+</head>
+
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
             <Row>
-                <p> No items yet! Add one above!</p>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
                 </Col>

@@ -2,8 +2,8 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-            document.write("Test");
             <Row>
+                <p className="text-center">test</p>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
                 </Col>

@@ -3,7 +3,6 @@ function App() {
     return (
         <Container>
             <Row>
-                <p className="text-center">test</p>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
                 </Col>
@@ -178,4 +177,4 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
     );
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<p>No items yet! Add one above!</p>,<App />, document.getElementById('root'));
